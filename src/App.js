@@ -31,7 +31,9 @@ function App() {
             className={`${error ? 'error' : null}`}
             />
             <button className="btn">submit</button>
+            
         </form>
+        <div><small>Version : Beta 0.1</small></div>
       </section>
       <section className="colors">
          {
