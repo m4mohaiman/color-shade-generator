@@ -1,7 +1,9 @@
 import { useState } from "react";
 import Values from "values.js";
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import SingleColor from "./components/SingleColor";
+
 
 function App() {
   const [color, setColor] = useState("");
@@ -36,6 +38,7 @@ function App() {
            list.map((color , index) => <SingleColor key={index} {...color} index={index} hexColor={color.hex}></SingleColor>)
          }
       </section>
+      <Footer></Footer>
     </>
   );
 }
