@@ -8,4 +8,4 @@
 
 ## Step 3) Then run the command "npm start"
 
-### Live Link :
+### Live Link : https://colors-shade-generatorr.netlify.app/
